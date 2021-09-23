@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity">
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/singin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="590dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:padding="17dp"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:text="Login"
+            android:textColor="@android:color/white"/>
+
+        <EditText
+            android:id="@+id/passsignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_signin"
+
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="19sp"  />
+
+        <EditText
+            android:id="@+id/email_signin"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="420dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="19sp"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="690dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Do not have an account?" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="300dp"
+            app:srcCompat="@drawable/login" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

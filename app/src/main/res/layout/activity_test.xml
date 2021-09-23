@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    <TextView
+        android:text="who is the biggest decomcrat ?"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTextView"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#eb346e"
+        android:paddingStart="10dp"
+        android:layout_gravity="start"
+        android:paddingBottom="10dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="20dp"
+        android:scrollbarSize="20dp"
+        android:gravity="center"
+        android:id="@+id/radioGroup"/>
+
+        <RadioButton
+            android:text="Rb1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:paddingBottom="10dp">
+        </RadioButton>
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb3"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3" />
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb4"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4" />
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb5"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5" />
+    <TextView
+        android:text="who is the biggest decomcrat ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTextView1"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#eb346e"
+        android:paddingStart="10dp"
+        android:layout_gravity="start"
+        android:paddingBottom="10dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="20dp"
+        android:scrollbarSize="20dp"
+        android:gravity="center"
+        android:id="@+id/radioGroup1"/>
+
+        <RadioButton
+            android:text="Rb1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:paddingBottom="10dp">
+        </RadioButton>
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton21" />
+
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb3"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton31" />
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb4"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton41" />
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb5"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton51" />
+    <TextView
+        android:text="who is the biggest decomcrat ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionTextView2"
+
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#eb346e"
+        android:paddingStart="10dp"
+        android:layout_gravity="start"
+        android:paddingBottom="10dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="20dp"
+        android:scrollbarSize="20dp"
+        android:gravity="center"
+        android:id="@+id/radioGroup2">
+
+        <RadioButton
+            android:text="Rb1"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton22"
+            android:paddingBottom="10dp">
+        </RadioButton>
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb2"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton23" />
+
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb3"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton32" />
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb4"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton42" />
+        <RadioButton
+            android:textSize="15sp"
+            android:text="Rb5"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton52" />
+
+
+    </RadioGroup>
+            <TextView
+                android:text="who is the biggest decomcrat ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/questionTextView2111"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="#eb346e"
+                android:paddingStart="10dp"
+                android:layout_gravity="start"
+                android:paddingBottom="10dp"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="20dp"
+                android:scrollbarSize="20dp"
+                android:gravity="center"
+                android:id="@+id/radioGroup211">
+
+                <RadioButton
+                    android:text="Rb1"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton221"
+                    android:paddingBottom="10dp">
+                </RadioButton>
+                <RadioButton
+                    android:textSize="15sp"
+                    android:text="Rb2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton231" />
+
+                <RadioButton
+                    android:textSize="15sp"
+                    android:text="Rb3"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton321" />
+                <RadioButton
+                    android:textSize="15sp"
+                    android:text="Rb4"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton421" />
+                <RadioButton
+                    android:textSize="15sp"
+                    android:text="Rb5"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioButton521" />
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
